@@ -2051,12 +2051,22 @@
     encoding "~0.1.13"
     yaml "~2.1.1"
 
-"@kadena/cryptography-utils@0.3.3", "@kadena/cryptography-utils@^0.3.3":
+"@kadena/cryptography-utils@0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@kadena/cryptography-utils/-/cryptography-utils-0.3.3.tgz#fea284b28a413a998fd5600698000aedbe0d97ba"
   integrity sha512-6GYpjXKbMEeVR9TwIPnE2gv1yjIlIxnlMTH6R0fqlgg8AMkk5WwJ1DpKlahEh2ii2shoZISfmlKLa24U8Fkd/g==
   dependencies:
     "@kadena/types" "0.3.3"
+    blakejs "^1.2.1"
+    buffer "^6.0.3"
+    tweetnacl "^1.0.3"
+
+"@kadena/cryptography-utils@^0.3.3":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@kadena/cryptography-utils/-/cryptography-utils-0.3.7.tgz#d1d98e4394929194571864b033f113123113260b"
+  integrity sha512-/GkUN9tMnlHRi4RJlD262KdYQz78PwpSdk1heT9+6nc/n2WKfBrlvWNrtdTP+uadIhp2wm3ChdMgCRclIfYv1A==
+  dependencies:
+    "@kadena/types" "0.4.1"
     blakejs "^1.2.1"
     buffer "^6.0.3"
     tweetnacl "^1.0.3"
@@ -2073,6 +2083,11 @@
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@kadena/types/-/types-0.3.3.tgz#e1b1a65a3a0ebde53cd81ecbc77f5926a24022da"
   integrity sha512-61ltE1vx81r/OSrrHaEte1m2QixsCVLBT8koBmWu7wmITGltjEzjkIJNNUs/A0d4aZzlUVOa+6tnRq22clQu3w==
+
+"@kadena/types@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@kadena/types/-/types-0.4.1.tgz#191d7abd72e62273e4703cf770b398460a71a856"
+  integrity sha512-hPXHsfdztJA23c8yDxshICd+eM+c5iTGkUuliRDsW73c1Zlfeb/bcsFFSpvIfR1I/pRLtLwC0BKnWvIYmZD/lA==
 
 "@lit-labs/ssr-dom-shim@^1.0.0", "@lit-labs/ssr-dom-shim@^1.1.0":
   version "1.1.1"

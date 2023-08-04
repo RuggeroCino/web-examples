@@ -1118,16 +1118,21 @@
     "@pedrouid/environment" "^1.0.1"
 
 "@kadena/cryptography-utils@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@kadena/cryptography-utils/-/cryptography-utils-0.3.2.tgz#4fa6d26bc6e67709507a2c8935480e2331629bbd"
-  integrity sha512-+z1liOA5TDEBEPvpKKCTG43jVtPV8jr3godoyUpu/aCcNB48Wk/BzzV1vCjFaNFb8P6s9UtTW0NO9EsV5JZsTw==
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@kadena/cryptography-utils/-/cryptography-utils-0.3.7.tgz#d1d98e4394929194571864b033f113123113260b"
+  integrity sha512-/GkUN9tMnlHRi4RJlD262KdYQz78PwpSdk1heT9+6nc/n2WKfBrlvWNrtdTP+uadIhp2wm3ChdMgCRclIfYv1A==
   dependencies:
-    "@kadena/types" "0.3.2"
+    "@kadena/types" "0.4.1"
     blakejs "^1.2.1"
     buffer "^6.0.3"
     tweetnacl "^1.0.3"
 
-"@kadena/types@0.3.2", "@kadena/types@^0.3.2":
+"@kadena/types@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@kadena/types/-/types-0.4.1.tgz#191d7abd72e62273e4703cf770b398460a71a856"
+  integrity sha512-hPXHsfdztJA23c8yDxshICd+eM+c5iTGkUuliRDsW73c1Zlfeb/bcsFFSpvIfR1I/pRLtLwC0BKnWvIYmZD/lA==
+
+"@kadena/types@^0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@kadena/types/-/types-0.3.2.tgz#7245110735d984d72fe1d4fc65ce94924fab85e1"
   integrity sha512-xgdbILZdZk5i6Kq7yVuCyhKYU8YY7F5S14xlePOQRN7kUex5Io9faAhHmMnpTzeMqpdMnv7qWKZ8zXaBLkv4oA==
@@ -4351,7 +4356,7 @@ humanize-ms@^1.2.1:
 
 ieee754@^1.1.13, ieee754@^1.2.1:
   version "1.2.1"
-  resolved "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ignore@^5.2.0:
